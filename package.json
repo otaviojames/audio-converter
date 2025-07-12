@@ -1,7 +1,9 @@
 {
   "name": "audio-converter",
-  "type": "module",
+  "version": "1.0.0",
   "dependencies": {
-    "ffmpeg-static": "^5.1.0"
+    "@vercel/node": "^3.0.0",
+    "multer": "^1.4.5-lts.1",
+    "fluent-ffmpeg": "^2.1.2"
   }
 }
