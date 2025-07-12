@@ -1,9 +1,7 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "api/convert.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/convert", "dest": "api/convert.js" }
-  ]
+  "functions": {
+    "api/convert-audio.js": {
+      "maxDuration": 30
+    }
+  }
 }
