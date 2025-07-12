@@ -1,0 +1,7 @@
+{
+  "name": "audio-converter",
+  "type": "module",
+  "dependencies": {
+    "ffmpeg-static": "^5.1.0"
+  }
+}
